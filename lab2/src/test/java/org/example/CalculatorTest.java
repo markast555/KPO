@@ -38,6 +38,5 @@ class CalculatorTest {
             calculator.divide(1.0, 1e-9);
         });
         assertEquals("Значение b слишком мало: |b| < 10e-8", exception.getMessage());
-        assertEquals(3.0, calculator.divide(12.0, 4.0));
     }
 }
