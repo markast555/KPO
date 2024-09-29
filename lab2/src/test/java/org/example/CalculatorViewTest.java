@@ -19,9 +19,9 @@ class CalculatorViewTest {
         final java.io.ByteArrayOutputStream outContent = new java.io.ByteArrayOutputStream();
         System.setOut(new java.io.PrintStream(outContent));
 
-        calculatorView.printResult(15.0);
+        calculatorView.printResult(3.0);
 
-        String expected = "Результат вычисления: 15.0";
+        String expected = "Результат вычисления: 3.0";
         String actual = outContent.toString();
 
         assertEquals(expected.trim(), actual.trim());
