@@ -10,7 +10,7 @@ class CalculatorTest {
 
     @Test
     void testSum() {
-        assertEquals(5.0, calculator.sum(2.0, 3.0));
+        assertEquals(2222.0, calculator.sum(2200.0, 22.0));
         assertEquals(-1.0, calculator.sum(-2.0, 1.0));
     }
 
