@@ -16,13 +16,13 @@ class CalculatorTest {
 
     @Test
     void testSubtract() {
-        assertEquals(1.0, calculator.subtract(3.0, 2.0));
+        assertEquals(3500.0, calculator.subtract(3502.0, 2.0));
         assertEquals(-3.0, calculator.subtract(-2.0, 1.0));
     }
 
     @Test
     void testMultiply() {
-        assertEquals(8.0, calculator.multiply(4.0, 2.0));
+        assertEquals(88.0, calculator.multiply(44.0, 2.0));
         assertEquals(-2.0, calculator.multiply(-2.0, 1.0));
     }
 
